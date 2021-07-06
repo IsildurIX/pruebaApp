@@ -1,0 +1,213 @@
+public class Datum {
+
+    @SerializedName("id")
+    @Expose
+    private Integer id;
+    @SerializedName("nombre")
+    @Expose
+    private String nombre;
+    @SerializedName("ruc")
+    @Expose
+    private String ruc;
+    @SerializedName("razonSocial")
+    @Expose
+    private String razonSocial;
+    @SerializedName("descripcion")
+    @Expose
+    private String descripcion;
+    @SerializedName("tiempoEntregaMinimo")
+    @Expose
+    private Integer tiempoEntregaMinimo;
+    @SerializedName("tiempoEntregaMaximo")
+    @Expose
+    private Integer tiempoEntregaMaximo;
+    @SerializedName("flgDeliveryPropio")
+    @Expose
+    private Boolean flgDeliveryPropio;
+    @SerializedName("flgAplicaCostoEnvio")
+    @Expose
+    private Boolean flgAplicaCostoEnvio;
+    @SerializedName("flgPagoOnline")
+    @Expose
+    private Boolean flgPagoOnline;
+    @SerializedName("flgPagoEfectivo")
+    @Expose
+    private Boolean flgPagoEfectivo;
+    @SerializedName("flgRecomendado")
+    @Expose
+    private Boolean flgRecomendado;
+    @SerializedName("flgDisponible")
+    @Expose
+    private Boolean flgDisponible;
+    @SerializedName("nroCuenta")
+    @Expose
+    private String nroCuenta;
+    @SerializedName("idRubro")
+    @Expose
+    private Integer idRubro;
+    @SerializedName("idBanco")
+    @Expose
+    private Integer idBanco;
+    @SerializedName("idConfiguracionPedido")
+    @Expose
+    private Integer idConfiguracionPedido;
+    @SerializedName("idUsuario")
+    @Expose
+    private Integer idUsuario;
+    @SerializedName("imagenNegocios")
+    @Expose
+    private List<ImagenNegocio> imagenNegocios = null;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getRuc() {
+        return ruc;
+    }
+
+    public void setRuc(String ruc) {
+        this.ruc = ruc;
+    }
+
+    public String getRazonSocial() {
+        return razonSocial;
+    }
+
+    public void setRazonSocial(String razonSocial) {
+        this.razonSocial = razonSocial;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public Integer getTiempoEntregaMinimo() {
+        return tiempoEntregaMinimo;
+    }
+
+    public void setTiempoEntregaMinimo(Integer tiempoEntregaMinimo) {
+        this.tiempoEntregaMinimo = tiempoEntregaMinimo;
+    }
+
+    public Integer getTiempoEntregaMaximo() {
+        return tiempoEntregaMaximo;
+    }
+
+    public void setTiempoEntregaMaximo(Integer tiempoEntregaMaximo) {
+        this.tiempoEntregaMaximo = tiempoEntregaMaximo;
+    }
+
+    public Boolean getFlgDeliveryPropio() {
+        return flgDeliveryPropio;
+    }
+
+    public void setFlgDeliveryPropio(Boolean flgDeliveryPropio) {
+        this.flgDeliveryPropio = flgDeliveryPropio;
+    }
+
+    public Boolean getFlgAplicaCostoEnvio() {
+        return flgAplicaCostoEnvio;
+    }
+
+    public void setFlgAplicaCostoEnvio(Boolean flgAplicaCostoEnvio) {
+        this.flgAplicaCostoEnvio = flgAplicaCostoEnvio;
+    }
+
+    public Boolean getFlgPagoOnline() {
+        return flgPagoOnline;
+    }
+
+    public void setFlgPagoOnline(Boolean flgPagoOnline) {
+        this.flgPagoOnline = flgPagoOnline;
+    }
+
+    public Boolean getFlgPagoEfectivo() {
+        return flgPagoEfectivo;
+    }
+
+    public void setFlgPagoEfectivo(Boolean flgPagoEfectivo) {
+        this.flgPagoEfectivo = flgPagoEfectivo;
+    }
+
+    public Boolean getFlgRecomendado() {
+        return flgRecomendado;
+    }
+
+    public void setFlgRecomendado(Boolean flgRecomendado) {
+        this.flgRecomendado = flgRecomendado;
+    }
+
+    public Boolean getFlgDisponible() {
+        return flgDisponible;
+    }
+
+    public void setFlgDisponible(Boolean flgDisponible) {
+        this.flgDisponible = flgDisponible;
+    }
+
+    public String getNroCuenta() {
+        return nroCuenta;
+    }
+
+    public void setNroCuenta(String nroCuenta) {
+        this.nroCuenta = nroCuenta;
+    }
+
+    public Integer getIdRubro() {
+        return idRubro;
+    }
+
+    public void setIdRubro(Integer idRubro) {
+        this.idRubro = idRubro;
+    }
+
+    public Integer getIdBanco() {
+        return idBanco;
+    }
+
+    public void setIdBanco(Integer idBanco) {
+        this.idBanco = idBanco;
+    }
+
+    public Integer getIdConfiguracionPedido() {
+        return idConfiguracionPedido;
+    }
+
+    public void setIdConfiguracionPedido(Integer idConfiguracionPedido) {
+        this.idConfiguracionPedido = idConfiguracionPedido;
+    }
+
+    public Integer getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(Integer idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
+    public List<ImagenNegocio> getImagenNegocios() {
+        return imagenNegocios;
+    }
+
+    public void setImagenNegocios(List<ImagenNegocio> imagenNegocios) {
+        this.imagenNegocios = imagenNegocios;
+    }
+
+}
