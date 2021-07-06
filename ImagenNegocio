@@ -1,0 +1,59 @@
+public class ImagenNegocio {
+
+    @SerializedName("idImagenNegocio")
+    @Expose
+    private Integer idImagenNegocio;
+    @SerializedName("url")
+    @Expose
+    private String url;
+    @SerializedName("flgPortada")
+    @Expose
+    private Boolean flgPortada;
+    @SerializedName("flgLogo")
+    @Expose
+    private Boolean flgLogo;
+    @SerializedName("idNegocio")
+    @Expose
+    private Integer idNegocio;
+
+    public Integer getIdImagenNegocio() {
+        return idImagenNegocio;
+    }
+
+    public void setIdImagenNegocio(Integer idImagenNegocio) {
+        this.idImagenNegocio = idImagenNegocio;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public Boolean getFlgPortada() {
+        return flgPortada;
+    }
+
+    public void setFlgPortada(Boolean flgPortada) {
+        this.flgPortada = flgPortada;
+    }
+
+    public Boolean getFlgLogo() {
+        return flgLogo;
+    }
+
+    public void setFlgLogo(Boolean flgLogo) {
+        this.flgLogo = flgLogo;
+    }
+
+    public Integer getIdNegocio() {
+        return idNegocio;
+    }
+
+    public void setIdNegocio(Integer idNegocio) {
+        this.idNegocio = idNegocio;
+    }
+
+}
